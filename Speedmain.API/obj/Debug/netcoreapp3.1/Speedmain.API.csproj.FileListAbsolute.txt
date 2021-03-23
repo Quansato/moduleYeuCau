@@ -1,0 +1,8 @@
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.csprojAssemblyReference.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.AssemblyInfoInputs.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.AssemblyInfo.cs
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.csproj.CoreCompileInputs.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.RazorAssemblyInfo.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.API\obj\Debug\netcoreapp3.1\Speedmain.API.RazorAssemblyInfo.cs

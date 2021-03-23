@@ -1,0 +1,98 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+    <meta charset="UTF-8">
+
+    <!--//calendar-->
+    <link rel="stylesheet" type="text/css" href="lastest/tui-time-picker.css">
+    <link rel="stylesheet" type="text/css" href="lastest/tui-date-picker.css">
+    <link rel="stylesheet" type="text/css" href="dist/tui-calendar.css">
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/icons.css">
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script src="lastest/tui-code-snippet.min.js"></script>
+    <script src="lastest/tui-time-picker.min.js"></script>
+    <script src="lastest/tui-date-picker.js"></script>
+    <script src="lastest/chance.min.js"></script>
+    <script src="dist/tui-calendar.js"></script>
+    <script src="js/data/calendars.js"></script>
+    <script src="js/data/schedules.js"></script>
+    <script src="js/theme/dooray.js"></script>
+    <script src="js/app.js"></script>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="moment.min.js"></script>
+    <link rel="stylesheet" href="jkanban.css">
+    <link rel="stylesheet" href="itemcss.css">
+    <script src="jkanban.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="daterangepicker.css" />
+    <script type="text/javascript" src="date.js"></script>
+    <script src="jquery.knob.js"></script>
+    //Map
+    <script src="lastest/mapbox-gl.js"></script>
+    <link href="lastest/mapbox-gl.css" rel="stylesheet" />
+    <script src="lastest/ekmap-mapboxgl.js"></script>
+    <script src="lastest/common.js"></script>
+    <title>Speed Maint</title>
+
+    <script type="text/javascript">
+        var Ext = Ext || {}; // Ext namespace won't be defined yet...
+
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
+        //
+        Ext.beforeLoad = function (tags) {
+            var s = location.search,  // the query string (ex "?foo=1&bar")
+                profile;
+
+            // For testing look for "?classic" or "?modern" in the URL to override
+            // device detection default.
+            //
+            if (s.match(/\bclassic\b/)) {
+                profile = 'classic';
+                console.log('classic')
+            }
+            else if (s.match(/\bmodern\b/)) {
+                profile = 'modern';
+                /*var me = this,
+                    refs = me.getReferences(),
+                    tree = refs.navigationTreeList;
+                tree._store.getRootNode().childNodes[1].childNodes[1].remove()*/
+            }
+            // uncomment this if you have added native build profiles to your app.json
+            /*else if (tags.webview) {
+                if (tags.ios) {
+                    profile = 'ios';
+                }
+                // add other native platforms here
+            }*/
+            else {
+                //profile = tags.desktop ? 'classic' : 'modern';
+                profile = tags.phone ? 'modern' : 'classic';
+                console.log(profile)
+            }
+
+            Ext.manifest = profile; // this name must match a build profile name
+
+            // This function is called once the manifest is available but before
+            // any data is pulled from it.
+            //
+            //return function (manifest) {
+            // peek at / modify the manifest object
+            //};
+        };
+    </script>
+
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" type="text/javascript" src="bootstrap.js"></script>
+
+
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\bin\Debug\netcoreapp3.1\Speedmain.Application.deps.json
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\bin\Debug\netcoreapp3.1\Speedmain.Application.dll
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\bin\Debug\netcoreapp3.1\Speedmain.Application.pdb
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\bin\Debug\netcoreapp3.1\Speedmain.Data.dll
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\bin\Debug\netcoreapp3.1\Speedmain.Data.pdb
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.csprojAssemblyReference.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.AssemblyInfoInputs.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.AssemblyInfo.cs
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.csproj.CoreCompileInputs.cache
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.csproj.CopyComplete
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.dll
+C:\Users\QuanSt\source\repos\Speedmain_Full\Speedmain.Application\obj\Debug\netcoreapp3.1\Speedmain.Application.pdb

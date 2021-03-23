@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SP</title>
+
+    <link rel="stylesheet" type="text/css" href="lastest/tui-time-picker.css">
+    <link rel="stylesheet" type="text/css" href="lastest/tui-date-picker.css">
+    <link rel="stylesheet" type="text/css" href="dist/tui-calendar.css">
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/icons.css">
+
+    <script src="lastest/tui-code-snippet.min.js"></script>
+    <script src="lastest/tui-time-picker.min.js"></script>
+    <script src="lastest/tui-date-picker.js"></script>
+    <script src="lastest/chance.min.js"></script>
+    <script src="dist/tui-calendar.js"></script>
+    <script src="js/data/calendars.js"></script>
+    <script src="js/data/schedules.js"></script>
+    <script src="js/theme/dooray.js"></script>
+    <script src="js/app.js"></script>
+
+    <script type="text/javascript" src="~/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="~/daterangepicker.css" />
+    <script type="text/javascript" src="~/date.js"></script>
+    <link rel="stylesheet" href="jkanban.css">
+    <link rel="stylesheet" href="itemcss.css">
+    <script src="jkanban.js"></script>
+    <script src="lastest/mapbox-gl.js"></script>
+    <link href="lastest/mapbox-gl.css" rel="stylesheet" />
+    <script src="lastest/ekmap-mapboxgl.js"></script>
+    <script src="lastest/common.js"></script>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
